@@ -1,13 +1,6 @@
 {% include default_header.html %}
   <div class="container">
-    <div class="row">
-      <div class="span9">
-         {% include header.html %}
-         {{ content }}
-      </div>
-      <div class="span3">
-         second column
-      </div>
-    </div>
+    {% include header.html %}
+    {{ content }}
   </div>
 {% include default_footer.html %}
