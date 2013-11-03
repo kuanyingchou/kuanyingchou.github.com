@@ -4,30 +4,24 @@ layout: default
 ---
 
 {% for post in paginator.posts %}
-<a href="{{ post.url }}">{{ post.date | date_to_string }}  {{ post.title }}</a> 
+<a href="{{ post.url }}">{{ post.title }}</a> {{ post.date | date_to_string }} 
 {{ post.content }}
 {% endfor %}
 
-<p> 第 {{ paginator.page }} 頁 </p>
+<!-- <p> 第 {{ paginator.page }} 頁 </p> -->
 
-<ul class="pager">
-<li>
-{% if paginator.previous_page %}
-  {% if paginator.previous_page == 1 %}
-  <a href="/">上一頁</a>
-  {% else %}
-  <a href="/page{{ paginator.previous_page }}">上一頁</a>
-  {% endif %}
-{% endif %}
-</li>
-<li>
 {% if paginator.next_page %}
   {% if paginator.next_page == 1 %}
-  <a href="/">下一頁</a>
+  <a href="/">←舊文</a>
   {% else %}
-  <a href="/page{{ paginator.next_page }}">下一頁</a>
+  <a href="/page{{ paginator.next_page }}">←舊文</a>
   {% endif %}
 {% endif %}
-</li>
-</ul>
+{% if paginator.previous_page %}
+  {% if paginator.previous_page == 1 %}
+  <a href="/">新文→</a>
+  {% else %}
+  <a href="/page{{ paginator.previous_page }}">新文→</a>
+  {% endif %}
+{% endif %}
 
