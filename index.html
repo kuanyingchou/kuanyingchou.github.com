@@ -4,9 +4,9 @@ layout: default
 ---
 
 {% for post in paginator.posts %}
-<small>{{ post.date | date_to_long_string }}</small>
 <h3><a href="{{ post.url }}">{{ post.title }}</a></h3> 
 {{ post.content }}
+<small>撰於：{{ post.date | date_to_long_string }} </small>
 {% endfor %}
 
 <!-- <p> 第 {{ paginator.page }} 頁 </p> -->
