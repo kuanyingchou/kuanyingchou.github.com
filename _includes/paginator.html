@@ -1,0 +1,15 @@
+<!-- <p> 第 {{ paginator.page }} 頁 </p> -->
+{% if paginator.next_page %}
+  {% if paginator.next_page == 1 %}
+  <a href="/">←舊文</a>
+  {% else %}
+  <a href="/page{{ paginator.next_page }}">←舊文</a>
+  {% endif %}
+{% endif %}
+{% if paginator.previous_page %}
+  {% if paginator.previous_page == 1 %}
+  <a href="/">新文→</a>
+  {% else %}
+  <a href="/page{{ paginator.previous_page }}">新文→</a>
+  {% endif %}
+{% endif %}

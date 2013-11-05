@@ -1,0 +1,28 @@
+body
+{
+  font-family:"Georgia", "Times New Roman", serif;
+  font-size:20px;
+  color:#303030;
+}
+a:link {color:#000000; font-weight:bold; text-decoration:none;}
+a:visited {color:#000000; font-weight:bold; text-decoration:none;}
+a:hover {color:#000000; font-weight:bold; text-decoration:underline;}
+pre {
+  background:#DDDDDD;
+  padding: 10px 10px;
+}
+hr {
+  height: 1px;
+  color: #505050;
+  background: #505050;
+  border: 0
+}
+table {
+  border: 1px;
+  width:80%;
+  table-layout: fixed;
+  margin-left: auto;
+  margin-right: auto;
+  word-wrap:break-word
+}
+.muted {color:#888888;font-size:18px}

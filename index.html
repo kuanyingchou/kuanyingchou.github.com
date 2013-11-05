@@ -3,27 +3,6 @@ title: main
 layout: default
 ---
 
-{% for post in paginator.posts %}
-<h3><a href="{{ post.url }}">{{ post.title }}</a></h3> 
-<p><div class="text-muted">{{ post.date | date: "%B %d, %Y" }} </div></p>
-{{ post.content }}
-
-{% endfor %}
-
-<!-- <p> 第 {{ paginator.page }} 頁 </p> -->
-
-{% if paginator.next_page %}
-  {% if paginator.next_page == 1 %}
-  <a href="/">←舊文</a>
-  {% else %}
-  <a href="/page{{ paginator.next_page }}">←舊文</a>
-  {% endif %}
-{% endif %}
-{% if paginator.previous_page %}
-  {% if paginator.previous_page == 1 %}
-  <a href="/">新文→</a>
-  {% else %}
-  <a href="/page{{ paginator.previous_page }}">新文→</a>
-  {% endif %}
-{% endif %}
+{% include mainloop.html %}
+{% include paginator.html %}
 
