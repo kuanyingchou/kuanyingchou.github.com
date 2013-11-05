@@ -1,6 +1,13 @@
 {% include header.html %}
 <h3>{{ page.title }}</h3>
-  <p>{{ page.date | date: "%B %d, %Y" }} </p>
+  <p class="muted">{{ page.date | date: "%B %d, %Y" }} </p>
   {{ content }}
+  <div class="muted"> 
+    {% for t in page.tags%}
+      #{{ t }}
+    {% endfor %}
+  </div>
+  <br>
+  <br>
   {% include disqus.html %}
 {% include footer.html %}

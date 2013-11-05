@@ -1,0 +1,14 @@
+---
+title: "所有文章"
+layout: default
+---
+<ul>
+{% for p in site.posts %}
+  {% capture year %}{{ p.date | date: '%Y' }}{% endcapture %}
+  {% capture nyear %}{{ p.next.date | date: '%Y' }}{% endcapture %}
+  {% if year != nyear %}
+    <h3><div class="muted">{{ p.date | date: '%Y' }}</div></h3>
+  {% endif %}
+  <li><a href="{{ p.url }}">{{ p.title }}</a></li>
+{% endfor %}
+</ul>
