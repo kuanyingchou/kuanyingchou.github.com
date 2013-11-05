@@ -1,8 +1,5 @@
-name: "KUAN-YING CHOU"
-nickname: "ken"
-description: "kuanying's blog"
-
-url: "http://localhost:4000"
+name: "#!/bin/think"
+description: "KUAN-YING CHOU's technical blog" 
 
 paginate: 5
 
