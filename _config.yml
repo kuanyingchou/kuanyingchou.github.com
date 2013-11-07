@@ -1,5 +1,8 @@
-name: "知道了"
-description: "KUAN-YING CHOU's technical blog" 
+name: "KUAN-YING CHOU's blog"
+description: "KUAN-YING CHOU's blog" 
+
+author: "KUAN-YING CHOU"
+email: "kuanyingchou@gmail.com"
 
 paginate: 5
 

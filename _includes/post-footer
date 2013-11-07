@@ -1,0 +1,10 @@
+<p>
+  <div class="muted"> 
+    by <a href="mailto:{{ site.email }}">{{ site.author }}</a> 
+    at {{ p.date | date_to_string }}.
+
+    {% for t in p.tags%}
+      #{{ t }}
+    {% endfor %}
+  </div>
+</p>

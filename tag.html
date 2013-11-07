@@ -1,0 +1,14 @@
+---
+title: tag
+layout: default
+---
+{% for tag in site.tags %} 
+  <h2>{{ tag[0] }}</h2>
+  {% for p in site.posts %}
+    {% for t in p.tags %}
+      {% if tag[0] == t %}
+        <p><small><a href="{{p.url}}"> {{ p.title }} </small></a></p>
+      {% endif %}
+    {% endfor %}
+  {% endfor %}
+{% endfor %}
