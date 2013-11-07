@@ -1,6 +1,6 @@
 {% for p in paginator.posts %}
   <h3><a href="{{ p.url }}">{{ p.title }}</a></h3> 
-  <p class="muted">{{ p.date | date: "%B %d, %Y" }} </p>
+  <p class="muted">{{ p.date | date_to_string }} </p>
   {{ p.content }}
   <p>
     <div class="muted"> 
