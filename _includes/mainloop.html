@@ -1,7 +1,7 @@
 {% for p in paginator.posts %}
+  <br>
+  <br>
   <h3><a href="{{ p.url }}">{{ p.title }}</a></h3> 
   {{ p.content }}
   {% include post-footer %}
-  <br>
-  <br>
 {% endfor %}
