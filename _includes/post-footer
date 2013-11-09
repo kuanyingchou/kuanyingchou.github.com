@@ -4,7 +4,9 @@
     at {{ p.date | date_to_string }}.
 
     {% for t in p.tags%}
-      <a href="taglist#{{ t }}">#{{ t }}</a>
+      <!-- <a href="taglist#{{ t }}">-->
+        #{{ t }}
+      <!--  </a> -->
     {% endfor %}
   </div>
 </p>
