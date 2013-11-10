@@ -34,7 +34,7 @@ hr {
   border: 0
 }
 */
-table {
+.column {
   border: 1px;
   width:95%;
   table-layout: fixed;
