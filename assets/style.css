@@ -7,6 +7,19 @@ body
 a:link {color:#000000; font-weight:bold; text-decoration:none;}
 a:visited {color:#000000; font-weight:bold; text-decoration:none;}
 a:hover {color:#000000; font-weight:bold; text-decoration:underline;}
+code {
+  background:#F8F8F8;
+  padding: 1px 5px;
+  margin: 1px 5px;
+  border: 1px solid #C8C8C8;
+  border-radius:5px;
+}
+pre code { 
+  background:none;
+  border: 0px;
+  padding: 0px 0px;
+  margin: 0px 0px;
+}
 pre {
   background:#F8F8F8;
   padding: 10px 10px;
