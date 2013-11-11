@@ -5,6 +5,7 @@ tags: math unity3d
 ---
  
 {% highlight csharp linenos %}
+
 using UnityEngine;
 using System.Collections;
 
@@ -41,4 +42,5 @@ public class Rotator : MonoBehaviour {
                 Quaternion.Euler(rotation.y, -rotation.x, rotation.z);
     }
 }
+
 {% endhighlight %}
