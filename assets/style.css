@@ -1,12 +1,24 @@
 body
 {
   font-family:"Georgia", "Times New Roman", serif;
-  font-size:20px;
+  font-size:1.33em;
   color:#333333;
 }
-a:link {color:#000000; font-weight:bold; text-decoration:none;}
-a:visited {color:#000000; font-weight:bold; text-decoration:none;}
-a:hover {color:#000000; font-weight:bold; text-decoration:underline;}
+a:link {
+  color:#000000;
+  font-weight: bold;
+  text-decoration:none;
+}
+a:visited {
+  color:#000000; 
+  text-decoration:none;
+}
+a:hover {
+  color:#000000; 
+  text-decoration:underline;
+  /*border-width: 2px;
+  border-bottom-style: dotted;*/
+}
 code {
   background:#F8F8F8;
   padding: 1px 5px;
@@ -42,4 +54,4 @@ hr {
   margin-right: auto;
   word-wrap:break-word
 }
-.muted {color:#888888;font-size:18px}
+.muted {color:#888888;font-size:0.8em}
