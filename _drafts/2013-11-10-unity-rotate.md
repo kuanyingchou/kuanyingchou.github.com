@@ -4,7 +4,8 @@ layout: post
 tags: math unity3d 
 ---
  
-{% highlight csharp linenos %}
+
+<pre>
 
 using UnityEngine;
 using System.Collections;
@@ -43,4 +44,4 @@ public class Rotator : MonoBehaviour {
     }
 }
 
-{% endhighlight %}
+</pre>
