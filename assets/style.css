@@ -1,3 +1,11 @@
+/*
+- the overall design should be simple and elegant
+- text should be large and clear
+- links should be different from normal text
+- code should be different from normal text
+- the layout should be adaptable to different window/screen sizes
+*/
+
 /* layout */
 
 .column {
@@ -38,7 +46,7 @@ a:visited {
   border-bottom: 1px dotted;
 }
 a:hover {
-  color:#000000; 
+  color:#40BFED; 
   text-decoration:none;
   border-bottom: 1px solid;
 }
@@ -70,4 +78,11 @@ pre {
   padding: 10px 10px;
   border: 1px solid #C8C8C8;
   border-radius:5px;
+}
+
+/* image */
+img {
+  max-width: 100%;
+  height: auto;
+  width: auto\9; /* ie8 */
 }
