@@ -1,5 +1,5 @@
 ---
-title: 把Mavericks 的Terminal 變彩色
+title: 把Mavericks 的終端機變彩色
 layout: post
 comments: true
 tags: [ps1, terminal, mac-os]
@@ -18,7 +18,7 @@ alias ls='ls -G'
 
 {% endhighlight %}
 
-把上面的指令貼到`~/.profile` ，再開新分頁就可以看到下面的效果：
+把上面的指令貼到`~/.profile` ，再開新分頁就可以看到效果：
 
 ![terminal](https://dl.dropboxusercontent.com/u/31448207/imgs/Screen%20Shot%202013-11-07%20at%2010.47.06%20PM.png)
 
