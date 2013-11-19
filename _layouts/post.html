@@ -1,7 +1,9 @@
 {% include header.html %}
 {% assign p = page %}
+<br>
 <h2>{{ p.title }}</h2>
 {{ content }}
 {% include post-footer %}
 {% include disqus.html %}
+{% include prev-next %}
 {% include footer.html %}

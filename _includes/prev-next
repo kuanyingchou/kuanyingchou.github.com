@@ -1,0 +1,17 @@
+<p>
+  <table style="width:100%">
+    <tr>
+      <td style="text-align:left">
+        {% if p.previous.url %}
+        <a href="{{ p.previous.url }}"> ←{{ p.previous.title }} </a>
+        {% endif %}
+      </td>
+      <td style="text-align:right">
+        <span style="text-align: right">
+        {% if p.next.url %}
+        <a href="{{ p.next.url }}"> {{ p.next.title }}→ </a>
+        {% endif %}
+      </td>
+    </tr>
+  </table>
+</p>
