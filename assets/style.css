@@ -12,10 +12,13 @@
   border: 1px;
   width:95%;
   max-width: 800px;
+  padding: 15px 15px;
   table-layout: fixed;
   margin-left: auto;
   margin-right: auto;
-  word-wrap:break-word
+  word-wrap:break-word;
+  background-color: white;
+  border-radius:5px;
 }
 
 /*
@@ -31,6 +34,8 @@ hr {
 
 body
 {
+  background-image: url('/assets/diagonal_striped_brick.png');
+  background-attachment: fixed;
   font-family:"Georgia", "Times New Roman", serif;
   font-size:120%;
   color:#444444;
@@ -77,6 +82,7 @@ pre code {
 }
 pre {
   background:#F8F8F8;
+  /*background-image: url('/assets/tiny_grid/tiny_grid.png');*/
   padding: 10px 10px;
   border: 1px solid #C8C8C8;
   border-radius:5px;
