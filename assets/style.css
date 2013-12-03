@@ -66,6 +66,14 @@ h2 a:link, h2 a:visited {
   border-bottom: 0;
 }
 
+h1 {
+  font-family: "Courier New";
+  text-shadow: 2px 2px 2px #DDDDDD;
+}
+h2 {
+  text-shadow: 1px 1px 1px #DDDDDD;
+}
+
 /* code */
 
 code {
