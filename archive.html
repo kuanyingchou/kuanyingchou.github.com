@@ -7,7 +7,7 @@ layout: default
   {% capture year %}{{ p.date | date: '%Y' }}{% endcapture %}
   {% capture nyear %}{{ p.next.date | date: '%Y' }}{% endcapture %}
   {% if year != nyear %}
-    <h3><div class="muted">{{ p.date | date: '%Y' }}</div></h3>
+    <h2>{{ p.date | date: '%Y' }}</h2>
   {% endif %}
   <li><a href="{{ p.url }}">{{ p.title }}</a></li>
 {% endfor %}
