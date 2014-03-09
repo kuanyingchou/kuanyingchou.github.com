@@ -1,8 +1,26 @@
 ---
-title: "kuan-ying chou's blog"
+title: "kuan-ying chou's site"
 layout: default
 ---
 
-{% include mainloop.html %}
-{% include paginator.html %}
-
+<!--guan-ying zhou-->
+<p>
+冠穎，程式設計師，在<a href="http://kizipad.com/">台北數位樂學</a>工作。
+</p>
+<p>
+我的信箱是：
+kuanyingchou@gmail.com，
+你也可以在
+<a href="https://github.com/kuanyingchou">Github</a> 或
+<a href="https://twitter.com/kuanyingchou">Twitter</a> 找到我。
+</p>
+<p>---</p>
+<p>
+我的文章：
+<ul>
+{% for p in site.posts %}
+  <li><a href="{{ p.url }}">{{ p.title }}</a> 
+  - {{ p.date | date: '%Y-%m-%d'}}</li>
+{% endfor %}
+</ul>
+</p>

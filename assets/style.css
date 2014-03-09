@@ -21,6 +21,10 @@
   /*box-shadow: 5px 5px 20px #CCCCCC;*/
 }
 
+.center {
+  text-align:center;
+}
+
 /*
 hr {
   height: 1px;
@@ -58,7 +62,8 @@ a:hover {
   text-decoration:none;
   border-bottom: 1px solid;
 }
-.muted {color:#888888;font-size:0.8em}
+.muted {color:#888888;font-size:0.9em}
+
 h1 a:link, h1 a:visited {
   border-bottom: 0;
 }
