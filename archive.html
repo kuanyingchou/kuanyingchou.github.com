@@ -4,11 +4,6 @@ layout: default
 ---
 <ul>
 {% for p in site.posts %}
-  {% capture year %}{{ p.date | date: '%Y' }}{% endcapture %}
-  {% capture nyear %}{{ p.next.date | date: '%Y' }}{% endcapture %}
-  {% if year != nyear %}
-    <h2>{{ p.date | date: '%Y' }}</h2>
-  {% endif %}
-  <li><a href="{{ p.url }}">{{ p.title }}</a></li>
+  <li><a href="{{ p.url }}">{{ p.title }}</a> - {{ p.date | date: '%Y-%m-%d'}}</li>
 {% endfor %}
 </ul>

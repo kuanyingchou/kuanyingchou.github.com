@@ -1,7 +1,6 @@
-name: "#!/bin/hack"
-description: "KUAN-YING CHOU's blog" 
+name: "kuan-ying chou's website"
 
-author: "KUAN-YING CHOU"
+author: "kuan-ying chou"
 email: "kuanyingchou@gmail.com"
 
 paginate: 5

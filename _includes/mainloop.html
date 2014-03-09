@@ -1,6 +1,10 @@
 {% for p in paginator.posts %}
   <br>
-  <h2><a href="{{ p.url }}">{{ p.title }}</a></h2> 
-  {{ p.content }}
-  {% include post-footer %}
+  <table class="column">
+    <tr><td>
+    <h2><a href="{{ p.url }}">{{ p.title }}</a></h2> 
+    {{ p.content }}
+    {% include post-footer %}
+    </td></tr>
+  </table>
 {% endfor %}

@@ -1,8 +1,7 @@
 /*
 - the overall design should be simple and elegant
 - text should be large and clear
-- links should be different from normal text
-- code should be different from normal text
+- links and code should be different from normal text
 - the layout should be adaptable to different window/screen sizes
 */
 
@@ -17,9 +16,9 @@
   margin-left: auto;
   margin-right: auto;
   word-wrap:break-word;
-  background-color: white;
-  border-radius:5px;
-  box-shadow: 5px 5px 20px #CCCCCC;
+  /*background-color: white;*/
+  /*border-radius:5px;*/
+  /*box-shadow: 5px 5px 20px #CCCCCC;*/
 }
 
 /*
@@ -35,8 +34,9 @@ hr {
 
 body
 {
-  background-image: url('/assets/diagonal_striped_brick.png');
-  background-attachment: fixed;
+  /*background-image: url('/assets/diagonal_striped_brick.png');*/
+  /*background-attachment: fixed;*/
+  background-color: #FFFFFF;
   font-family:"Georgia", "Times New Roman", serif;
   font-size:120%;
   color:#444444;
