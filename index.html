@@ -8,13 +8,13 @@ layout: default
 Kuan-Ying Chou(kuanyingchou@gmail.com)
 </p>
 ---
-<p>Posts:</p>
 <p>
-<ul>
 {% for p in site.posts %}
-  <li><a href="{{ p.url }}">{{ p.title }}</a> 
-  - {{ p.date | date: '%Y-%m-%d'}}</li>
+  <div>
+  <a href="{{ p.url }}">{{ p.title }}</a> 
+  {{ p.date | date: '%Y-%m-%d'}}
   {{ p.content }}
+  {% include post-footer %}
+  </div>
 {% endfor %}
-</ul>
 </p>
