@@ -7,8 +7,7 @@ layout: default
 <p>
 {% for p in site.posts %}
   <div>
-    <h2><a href="{{ p.url }}">{{ p.title }}</a></h2>
-    <span class="muted">{{ p.date | date: '%Y-%m-%d'}}</span>
+    <h2><a href="{{ p.url }}">{{ p.title }}</a></h2> <span class="muted">{{ p.date | date: '%Y-%m-%d'}}</span>
     {% include tag-list %}
     {{ p.content }}
   </div>
