@@ -5,7 +5,7 @@ layout: default
 <h1>Kuan-Ying Chou</h1>
 ---
 <p>
-{% for p in site.posts %}
+{% for p in paginator.posts %}
   <div>
     <h2><a href="{{ p.url }}">{{ p.title }}</a></h2> 
     <span class="muted">{{ p.date | date: '%Y-%m-%d'}}</span>
@@ -15,6 +15,21 @@ layout: default
 {% endfor %}
 </p>
 ---
-<p>
+<!-- Pagination links -->
+<div class="pagination">
+  {% if paginator.previous_page %}
+    <a href="{{ paginator.previous_page_path }}" class="previous">Previous</a>
+  {% else %}
+    <span class="previous">Previous</span>
+  {% endif %}
+  <span class="page_number ">Page: {{ paginator.page }} of {{ paginator.total_pages }}</span>
+  {% if paginator.next_page %}
+    <a href="{{ paginator.next_page_path }}" class="next">Next</a>
+  {% else %}
+    <span class="next ">Next</span>
+  {% endif %}
+</div>
+
+<p class="muted">
 Kuan-Ying Chou(周冠穎) - kuanyingchou@gmail.com
 </p>
