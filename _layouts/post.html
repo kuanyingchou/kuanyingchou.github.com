@@ -1,7 +1,8 @@
 {% include header.html %}
 {% assign p = page %}
 <div class="muted"><a href="/">[Back to Home]</a></div>
-<h2>{{ p.title }}</h2> <span class="muted">{{ p.date | date: '%Y-%m-%d'}}</span>
+<h2>{{ p.title }}</h2> 
+<span class="muted">{{ p.date | date: '%Y-%m-%d'}}</span>
 {% include tag-list %}
 {{ content }}
 <div class="muted"><a href="/">[Back to Home]</a></div>
