@@ -2,19 +2,19 @@
 title: "kuan-ying chou's site"
 layout: default
 ---
-
-<!--guan-ying zhou-->
-<p>
-Kuan-Ying Chou(kuanyingchou@gmail.com)
-</p>
+<h1></h1>
 ---
 <p>
 {% for p in site.posts %}
   <div>
-  <a href="{{ p.url }}">{{ p.title }}</a> 
-  <div class="muted">{{ p.date | date: '%Y-%m-%d'}}</div>
-  {% include post-footer %}
-  {{ p.content }}
+    <h1><a href="{{ p.url }}">{{ p.title }}</a></h1>
+    <div class="muted">{{ p.date | date: '%Y-%m-%d'}}</div>
+    {% include post-footer %}
+    {{ p.content }}
   </div>
 {% endfor %}
+</p>
+---
+<p>
+Kuan-Ying Chou - kuanyingchou@gmail.com
 </p>
