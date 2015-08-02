@@ -1,7 +1,14 @@
 {% include header.html %}
 {% assign p = page %}
 <h2>{{ p.title }}</h2>
+<div class="muted"> 
 <a href="/">{{ site.author }}</a> on {{ p.date | date_to_string }}
+  {% for t in p.tags%}
+    <!-- <a href="taglist#{{ t }}">-->
+      #{{ t }}
+    <!--  </a> -->
+  {% endfor %}
+</div>
+<br>
 {{ content }}
-{% include post-footer %}
 {% include footer.html %}
