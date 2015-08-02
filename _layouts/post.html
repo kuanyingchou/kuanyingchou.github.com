@@ -1,8 +1,8 @@
 {% include header.html %}
 {% assign p = page %}
 <h2>{{ p.title }}</h2>
-<div class="muted"> 
 <a href="/">{{ site.author }}</a> on {{ p.date | date_to_string }}
+<div class="muted"> 
   {% for t in p.tags%}
     <!-- <a href="taglist#{{ t }}">-->
       #{{ t }}
