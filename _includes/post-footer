@@ -1,5 +1,4 @@
 <div class="muted"> 
-  By <a href="/">{{ site.author }}</a>. 
   {% for t in p.tags%}
     <!-- <a href="taglist#{{ t }}">-->
       #{{ t }}

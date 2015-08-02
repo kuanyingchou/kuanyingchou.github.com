@@ -1,7 +1,7 @@
 {% include header.html %}
 {% assign p = page %}
 <h2>{{ p.title }}</h2>
-{{ p.date | date_to_string }}
+<a href="/">{{ site.author }}</a> - {{ p.date | date_to_string }}
 {{ content }}
 {% include post-footer %}
 {% include footer.html %}
