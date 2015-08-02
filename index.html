@@ -12,9 +12,9 @@ Kuan-Ying Chou(kuanyingchou@gmail.com)
 {% for p in site.posts %}
   <div>
   <a href="{{ p.url }}">{{ p.title }}</a> 
-  {{ p.date | date: '%Y-%m-%d'}}
-  {{ p.content }}
+  <div class="muted">{{ p.date | date: '%Y-%m-%d'}}</div>
   {% include post-footer %}
+  {{ p.content }}
   </div>
 {% endfor %}
 </p>
