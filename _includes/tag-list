@@ -1,8 +1,5 @@
-<div class="muted"> 
-  {% for t in p.tags%}
-    <!-- <a href="taglist#{{ t }}">-->
-      #{{ t }}
-    <!--  </a> -->
+<span class="muted"> 
+  {% for t in p.tags %}
+    #{{ t }}
   {% endfor %}
-</div>
-<br>
+</span>
