@@ -1,9 +1,9 @@
 {% include header.html %}
 {% assign p = page %}
-<a href="/">[Back to Home]</a>
+<div class="muted"><a href="/">[Back to Home]</a></div>
 <h2>{{ p.title }}</h2>
 {{ p.date | date: '%Y-%m-%d'}}
 {{ content }}
 {% include post-footer %}
 {% include footer.html %}
-<a href="/">[Back to Home]</a>
+<div class="muted"><a href="/">[Back to Home]</a></div>
