@@ -42,7 +42,7 @@ I saw this instant standing desk and made one for myself at around 3 o'clock. Gr
 
 ![desk](https://dl.dropboxusercontent.com/u/31448207/imgs/IMG_0034.JPG)
 
-The sunrise of the next day. I don't know why this picture is upside-down:
+The sunrise of the next day. I don't know why this picture is upside-down but I decided at the time that hackathons are really not a thing for me:
 
 ![sunrise](https://dl.dropboxusercontent.com/u/31448207/imgs/IMG_0037.JPG)
 
@@ -56,10 +56,17 @@ Here are some screenshots of my app:
 
 You can find my code [here](https://github.com/kuanyingchou/swag).
 
-No idea what I was talking about at the final presentation. At least I got to wear that cool microphone:
+It's show time!
+
+![cameras](https://dl.dropboxusercontent.com/u/31448207/imgs/IMG_0044.JPG)
+
+![stage](https://dl.dropboxusercontent.com/u/31448207/imgs/IMG_0048.JPG)
+
+I felt great wearing that cool microphone and my demo would be awesome, right?
 
 ![presentation](https://dl.dropboxusercontent.com/u/31448207/imgs/Screen%20Shot%202015-09-21%20at%202.10.42%20PM.png)
 
+Nope. I had no idea what I was talking about at the final presentation. I quickly ran out of time without writing a single character and Jesse didn't got the chance to demo his stuff(really sorry about that). 
 
-
+I'll do better next time!
 
