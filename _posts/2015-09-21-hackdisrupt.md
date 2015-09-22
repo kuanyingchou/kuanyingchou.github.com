@@ -12,7 +12,7 @@ Lots of hackers in an old warehouse:
 
 ![start](https://dl.dropboxusercontent.com/u/31448207/imgs/IMG_20150919_133949.jpg)
 
-I met my teammate, Devin and Jesse, while waiting for the event to start. They are only in 10th grade and Devin had already attended 8 hackathons! They got these nerd glasses from one of the sponsors:
+I met my teammates, Devin and Jesse, while waiting for the event to start. They are only in 10th grade and Devin had already attended 8 hackathons! They got these nerd glasses from one of the sponsors:
 
 ![teammates2](https://dl.dropboxusercontent.com/u/31448207/imgs/IMG_20150919_143146.jpg)
 
@@ -30,7 +30,7 @@ Dinner served at 7 but the waiting line was super long. I got mine at 8. It was 
 
 ![dinner](https://dl.dropboxusercontent.com/u/31448207/imgs/IMG_0009.JPG)
 
-My teammate in the middle of the night:
+My teammates in the middle of the night:
 
 ![teammates3](https://dl.dropboxusercontent.com/u/31448207/imgs/IMG_0020.JPG)
 
