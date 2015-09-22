@@ -66,7 +66,7 @@ I felt great wearing that cool microphone and my demo would be awesome, right?
 
 ![presentation](https://dl.dropboxusercontent.com/u/31448207/imgs/Screen%20Shot%202015-09-21%20at%202.10.42%20PM.png)
 
-Nope. I had no idea what I was talking about at the final presentation. I quickly ran out of time without writing a single character and Jesse didn't got the chance to demo his stuff(really sorry about that). 
+Nope, it was terrible. I quickly ran out of time without writing a single character on stage and Jesse didn't get the chance to demo his stuff(really sorry about that). 
 
-I'll do better next time!
+But I kind of love it. The sense of achievement is thrilling and it's really an honor to be among these real hackers who know their trade and actually deliver. I'll do better next time!
 
