@@ -26,7 +26,7 @@ Be sure to bring an extension cord with you. It will come in handy!
 
 The hacker in front of me looked really serious. He ignored all the sponsors and networking and started coding immediately once he found a seat. I decided to follow his approach. 
 
-Real hacker. Did you see the flame on his eyes?
+Real hacker at work. Did you see the flame in his eyes?
 
 ![hacker](https://dl.dropboxusercontent.com/u/31448207/imgs/IMG_0006.jpg)
 
@@ -92,4 +92,4 @@ But I kind of love it. It's really an honor to be among these real hackers who k
 
 I'll do better next time.
 
-Last Updated: 2015.9.22
+Last Updated: 2015.9.27
