@@ -140,7 +140,7 @@
 	  _react2.default.createElement(
 	    'p',
 	    null,
-	    'Vertical menus'
+	    'Vertical menus:'
 	  ),
 	  _react2.default.createElement(
 	    'div',
@@ -150,7 +150,7 @@
 	  _react2.default.createElement(
 	    'p',
 	    null,
-	    'Horizontal menus'
+	    'Horizontal menus:'
 	  ),
 	  _react2.default.createElement(
 	    'div',
@@ -200,7 +200,7 @@
 	  _react2.default.createElement(
 	    'p',
 	    null,
-	    'Submenu can have submenus'
+	    'Menus can be nested:'
 	  ),
 	  _react2.default.createElement(
 	    'div',
